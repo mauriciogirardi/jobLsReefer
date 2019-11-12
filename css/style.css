@@ -328,6 +328,56 @@ section.sobre-empresa {
     text-decoration: none;
 }
 
+/* footer */
+
+footer {
+    max-width: 1400px;
+    width: 100%;
+    background-color: #2FB3FF;
+    margin: 0 auto;
+    padding: 15px;
+}
+.w6 {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-around
+}
+.footer-box h2 {
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 20px;
+   
+}
+.footer-box p {
+    color: white;
+    font-size: 15px;
+    
+}
+
+.max-container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(24, 158, 236);
+    padding: 10px 2%;
+}
+.sub-footer {
+    display: flex;
+    justify-content: space-between;   
+}
+.sub-footer p {
+    color: white;
+    font-size: 12px;
+}
+.sub-footer p a {
+    text-decoration: none;
+    color: white;
+}
 
 
 
@@ -358,6 +408,18 @@ section.sobre-empresa {
     section.sobre-empresa {
         padding: 0 2%;
     }
+    .footer-box {
+        flex-wrap: wrap;
+    }
+    .sub-footer {
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        
+    }
+    .box{
+        margin-bottom: 25px;
+    }
+
 }
 
 @media screen and (max-width: 610px){
