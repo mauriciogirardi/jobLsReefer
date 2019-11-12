@@ -1,0 +1,131 @@
+.flex-form-comentario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.comentarios {
+    text-align: center;
+}
+
+.comentarios a {
+    font-size: 40px;
+    color: rgb(5, 5, 214);
+}
+.comentarios h2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 30px;
+
+}
+.parte2{
+    max-width: 510px;
+    width: 100%;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: 0 4%;
+    margin-bottom: 60px;
+}
+
+.scrollEquipe{   
+    max-width: 600px;
+    padding-left: 30px;
+    overflow: hidden;
+    
+}
+
+.scrollWraper{
+    width: 100%; 
+}
+
+.sobre-autor{
+    float: left;
+    width: 100%; 
+}
+
+.titulo-autor{
+    float: left;
+    width: 100%;
+   
+}
+
+.descri-autor{
+    float: left;
+    margin-left: 10px;
+    /* width: calc(100% - 40px); */   
+}
+
+.titulo-autor h2{
+    padding-right: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+   
+}
+.titulo-autor p{
+    font-size: 13px;
+    color: white;
+    font-style: italic;
+    padding-right: 22px;
+}
+
+
+.texto-autor{
+    float: left;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.texto-autor p{
+    color: white;
+    font-size: 15px;
+    
+}
+
+.slider-bullets{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.slider-bullets span{
+    width: 14px;
+    height: 14px;
+    float: left;
+    border-radius: 9px;
+    margin-right: 9px;
+    cursor: pointer;
+    background-color: rgba(172, 172, 172, 0.829);
+}
+
+@media screen and (max-width: 1048px) {
+    .flex-form-comentario {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .parte2 {
+        width: 100%;
+        margin: 0 auto;
+        margin: 40px 2%;
+    }
+    .scrollEquipe {   
+       margin: 0 auto;
+       max-width: 500px;
+    }     
+    .slider-bullets{ 
+       width: 55%;
+    }  
+    .slider-bullets span{
+        float: right;
+    }
+}
+@media screen and (max-width: 500px) {   
+    .slider-bullets{ 
+       width: 100%;
+    }  
+    .slider-bullets span{
+        float: left;
+    }
+} 
