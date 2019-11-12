@@ -46,7 +46,7 @@ body,html {
     -webkit-transition: 0.8s;
 }
 .icons-social i:hover {
-    color: rgb(9, 9, 194);
+    color: #4267b2;
 }
 
 header {
@@ -365,10 +365,18 @@ section.sobre-empresa {
 }
 
 @media screen and (max-width: 500px){
+    .icons-social a { 
+        font-size: 60px;
+    }
+    .icons-social a i {
+        margin-top: 500px;
+        margin-right: 80px;
+    }
+
     header {
         background-image: url(../image/bannerMedia.png);  
         height: 100vh;
-        max-height: 600px;
+        max-height: 700px;
         background-size: cover ;
         background-position: center;
     }  
@@ -387,6 +395,6 @@ section.sobre-empresa {
 @media screen and (max-width: 320px){
     section.sobre-empresa {
         max-height: 570px;
-     }
+    }
     
 }
