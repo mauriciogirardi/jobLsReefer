@@ -56,8 +56,9 @@ header {
     background-image: url(../image/banneer1.png);
     background-size: cover ;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    overflow: hidden;
     background-position: left;
+    position: relative;
     margin: 0 auto;
     max-width: 1400px;
     
