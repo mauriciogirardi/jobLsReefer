@@ -92,6 +92,9 @@ header nav#menu-desktop ul li a:hover {
     top: 0;
     left: -200px;
     background-color: #262626;
+    border-radius: 0px 0px 800px 0px;
+    border-right: 2px solid #2FB3FF;
+    border-bottom: 2px solid #2FB3FF;
     width: 200px;
     height: 100%;
     transition: 0.3s;
