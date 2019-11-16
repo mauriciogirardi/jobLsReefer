@@ -11,5 +11,10 @@ $(function(){
             })
         })
     }    
+
+    //Scroll to top pagina main.
+    var scroll = document.getElementById('top')
+    window.addEventListener( scroll)
+   
    
 });

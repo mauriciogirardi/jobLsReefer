@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Open Sans', sans-serif;
     
 }
@@ -327,6 +328,14 @@ section.sobre-empresa {
     text-decoration: none;
 }
 
+/* Scroll To Top */
+
+#top {
+    position: absolute;
+    right: 10px;
+    opacity: 0.5;
+}   
+
 /* footer */
 
 footer {
@@ -334,7 +343,7 @@ footer {
     width: 100%;
     background-color: #2FB3FF;
     margin: 0 auto;
-    padding: 15px;
+    padding: 30px;
 }
 .w6 {
     max-width: 400px;
@@ -343,7 +352,7 @@ footer {
 }
 .footer-box {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .footer-box h2 {
