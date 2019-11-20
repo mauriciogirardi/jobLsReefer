@@ -165,14 +165,19 @@
             </div><!--container-->
         </article>
 
+        <div id="top" >
+            <a href="#"><img src="image/top.png" alt=""></a>
+        </div>
+
         <footer>
             <div class="container">
                 <div class="footer-box">
                     <div class="box w6">
-                        <h2>Telefones</h2>
-                        <p> <img src="image/icon-whatsapp.png" alt=""> (47)99915-6238</p>
-                        <p> <img src="image/icon-whatsapp.png" alt=""> (47)99669-7621</p>
-                        <p> <img src="image/icon-whatsapp.png" alt=""> (47)98449-2968</p>
+                        <h2>Contato</h2>
+                        <p> <img src="image/icon-whatsapp.png"> (47)99915-6238</p>
+                        <p> <img src="image/icon-whatsapp.png"> (47)99669-7621</p>
+                        <p> <img src="image/icon-whatsapp.png"> (47)98449-2968</p>
+                        <p>ls.reefer@gmail.com</p>
                     </div>
                     <div class="box w6">
                         <h2>Horarios</h2>
@@ -186,7 +191,7 @@
                         <p>Rua presbitero João Leite 717</p>
                         <p>Rocio Grande</p>
                         <p>São Francisco do Sul - SC</p>
-                    </div>
+                    </div>                   
                 </div>
             </div>
             
@@ -200,6 +205,23 @@
                 </div>
             </div>
         </div>
+
+        <script type="text/javascript">
+            (function () {
+                var options = {
+                    facebook: "345793552654769", // Facebook page ID
+                    whatsapp: "+5547996089390", // WhatsApp number
+                    call_to_action: "Entre em contato", // Call to action
+                    button_color: "#E74339", // Color of button
+                    position: "right", // Position may be 'right' or 'left'
+                    order: "whatsapp,facebook", // Order of buttons
+                };
+                var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+                var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+            })();
+        </script>
 
         <script src="js/jQuery.js"></script>     
         <script src="js/function.js"></script>   
