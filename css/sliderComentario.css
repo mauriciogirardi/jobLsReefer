@@ -18,6 +18,10 @@
     margin-bottom: 30px;
 
 }
+.comentarios > p {
+    color: white;
+    font-size: 12px;
+}
 .parte2{
     max-width: 510px;
     width: 100%;

@@ -14,6 +14,10 @@ body,html {
     clear: both;
 }
 
+#conteudo-banner-mobile {
+    display: none;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1280px;
@@ -94,7 +98,6 @@ header nav#menu-desktop ul li a:hover {
     top: 0;
     left: -200px;
     background-color: #333;
-    border-radius: 0px 0px 200px 0px;
     width: 200px;
     height: 100%;
     transition: 0.3s;
@@ -333,7 +336,8 @@ section.sobre-empresa {
 #top {
     position: absolute;
     right: 10px;
-    opacity: 0.5;
+    opacity: 0.8;
+    margin-top: 20px;
 }   
 
 /* footer */
@@ -343,7 +347,7 @@ footer {
     width: 100%;
     background-color: #2FB3FF;
     margin: 0 auto;
-    padding: 30px;
+    padding: 60px;
 }
 .w6 {
     max-width: 400px;
@@ -374,10 +378,12 @@ footer {
     margin: 0 auto;
     background-color: rgb(24, 158, 236);
     padding: 20px 2%;
+    
 }
 .sub-footer {
     display: flex;
     justify-content: space-between;   
+    
 }
 .sub-footer p {
     color: white;
@@ -387,6 +393,18 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+/* slider marcas */
+
+.carrocel-auto {
+    background: white;
+    box-shadow: 1px 4px 8px 4px rgba(65, 65, 65, 0.205);
+}
+
+.carrocel-auto img {
+    padding: 5px 20px;
+}
+
 
 
 
@@ -445,7 +463,7 @@ footer {
         font-size: 60px;
     }
     .icons-social a i {
-        margin-top: 460px;
+        margin-top: 490px;
         margin-right: 55px;
     }
     .max-container {
@@ -453,7 +471,7 @@ footer {
     }
 
     header {
-        background-image: url(../image/bannerMedioVazio.png);  
+        background-image: url(../image/teste.png);  
         height: 100vh;
         max-height: 700px;
         background-size: cover ;
@@ -461,6 +479,41 @@ footer {
     }  
     .line-bootom {
         display: none;
+    }
+
+    #conteudo-banner-mobile {
+        display: block;
+        position: absolute;
+        top: 200px;
+        left: 10px;
+    }
+
+    #conteudo-mobile {
+        max-width: 380px;
+        width: 100%;
+        padding: 10px 2%;
+    }
+
+    #conteudo-banner-mobile p {
+        color: white;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    #conteudo-banner-mobile h2 {
+        color: white;
+        font-size: 22px;
+    }
+
+
+
+    /* slider marcas */
+
+    .carrocel-auto img {
+        padding: 0 10px;
+    }
+    .carrocel-auto {
+        padding: 10px 0px;
     }
 }
 
