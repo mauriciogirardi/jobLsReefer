@@ -354,6 +354,7 @@ footer {
     width: 100%;
     text-align: center;
 }
+
 .footer-box {
     display: flex;
     justify-content: space-around;
@@ -383,6 +384,7 @@ footer {
 .sub-footer {
     display: flex;
     justify-content: space-between;   
+    text-align: center;
     
 }
 .sub-footer p {
@@ -471,7 +473,7 @@ footer {
     }
 
     header {
-        background-image: url(../image/teste.png);  
+        background-image: url(../image/bannerMedia.png);  
         height: 100vh;
         max-height: 700px;
         background-size: cover ;
@@ -484,14 +486,32 @@ footer {
     #conteudo-banner-mobile {
         display: block;
         position: absolute;
-        top: 200px;
-        left: 25px;
+        top: 100px;
+        left: 0px;
+        padding: 0 2%;
     }
 
     #conteudo-mobile {
-        max-width: 380px;
         width: 100%;
-        padding: 5px 2%;
+        margin-left: 30px;
+    }
+
+    #conteudo-banner-mobile h1 {
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold;
+        color: white;
+        font-size: 50px;
+    }
+
+    #conteudo-banner-mobile h1 span {
+        color: #2FB3FF;
+        font-size: 58px;
+        margin-right: 5px;
+    }
+
+    #conteudo-banner-mobile h2 {
+        color: white;
+        font-size: 25px;
     }
 
     #conteudo-banner-mobile p {
@@ -500,10 +520,7 @@ footer {
         margin-bottom: 10px;
     }
 
-    #conteudo-banner-mobile h2 {
-        color: white;
-        font-size: 24px;
-    }
+    
 
 
 
