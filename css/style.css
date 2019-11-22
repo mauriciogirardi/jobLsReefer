@@ -355,9 +355,10 @@ footer {
     padding: 60px;
 }
 .w6 {
-    max-width: 400px;
+    max-width: 310px;
     width: 100%;
     text-align: center;
+    padding: 0 10px;
 }
 
 .footer-box {
@@ -376,6 +377,7 @@ footer {
 .footer-box p {
     color: white;
     font-size: 16px;
+    text-align: left;
 }
 
 .max-container {
@@ -454,6 +456,9 @@ footer {
     }
     .box{
         margin-bottom: 25px;
+    }
+    .w6 {
+        max-width:380px;
     }
 
 }
@@ -546,9 +551,13 @@ footer {
         max-width: 300px;
     }
 
+    .w6 {
+        max-width:500px;
+    }
+    footer {
+        padding: 60px 15px;
+    }
     
-
-
 
     /* slider marcas */
 
