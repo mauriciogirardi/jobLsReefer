@@ -18,6 +18,10 @@ body,html {
     display: none;
 }
 
+.icons-facebook { 
+   display: none;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1280px;
@@ -462,12 +466,27 @@ footer {
 
 @media screen and (max-width: 500px){
     .icons-social a { 
-        font-size: 60px;
+        display: none;
     }
-    .icons-social a i {
-        margin-top: 490px;
-        margin-right: 55px;
+    .icons-facebook { 
+        display: block;
+        text-align: right;
+        margin-right: 40px;
     }
+    .icons-facebook a { 
+        font-size: 60px; 
+        color: white;
+        transition: 0.5s;
+    }
+    .icons-facebook a:hover {   
+        color: #4267b2;
+    }
+  
+    .icons-facebook p {
+        color: white;
+        margin-right: -15px;
+    }
+    
     .max-container {
         padding: 30px 2%;
     }
@@ -485,14 +504,15 @@ footer {
 
     #conteudo-banner-mobile {
         display: block;
-        position: absolute;
-        top: 100px;
-        left: 0px;
-        padding: 0 3%;
+        margin-top: 80px;
+        padding: 0 2%;
     }
 
     #conteudo-mobile {
         width: 100%;
+        max-width: 330px;
+        margin: 0 auto;
+
     }
 
     #conteudo-banner-mobile h1 {
