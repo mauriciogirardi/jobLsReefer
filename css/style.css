@@ -488,25 +488,29 @@ footer {
         position: absolute;
         top: 100px;
         left: 0px;
-        padding: 0 2%;
+        padding: 0 3%;
     }
 
     #conteudo-mobile {
         width: 100%;
-        margin-left: 30px;
     }
 
     #conteudo-banner-mobile h1 {
         font-family: 'Source Code Pro', monospace;
         font-weight: bold;
         color: white;
-        font-size: 50px;
+        font-size: 60px;
     }
 
-    #conteudo-banner-mobile h1 span {
+    #conteudo-banner-mobile h1 > span {
         color: #2FB3FF;
-        font-size: 58px;
+        font-size: 65px;
         margin-right: 5px;
+    }
+
+    #conteudo-banner-mobile span {
+        color: white;
+        font-size: 15px;
     }
 
     #conteudo-banner-mobile h2 {
@@ -518,6 +522,7 @@ footer {
         color: white;
         font-size: 14px;
         margin-bottom: 10px;
+        max-width: 300px;
     }
 
     
