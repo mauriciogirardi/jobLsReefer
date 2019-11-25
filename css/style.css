@@ -339,10 +339,13 @@ section.sobre-empresa {
 /* Scroll To Top */
 
 #top {
-    position: absolute;
-    right: 10px;
+    position: fixed;
+    right: 15px;
+    bottom: 210px;
     opacity: 0.8;
-    margin-top: 20px;
+    z-index: 9999;
+    cursor: pointer;
+    display: none;
 }   
 
 /* footer */

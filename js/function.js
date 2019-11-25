@@ -13,8 +13,15 @@ $(function(){
     }    
 
     //Scroll to top pagina main.
-    var scroll = document.getElementById('top')
-    window.addEventListener( scroll)
-   
+    $('#top').click(function(){
+        $('html, body').animate({scrollTop : 0},800)
+    })
+   $(window).scroll(function(){
+       if($(this).scrollTop() > 40) {
+           $('#top').fadeIn()
+       } else {
+           $('#top').fadeOut()
+       }
+   })
    
 });
