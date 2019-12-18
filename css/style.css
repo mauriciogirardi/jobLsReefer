@@ -504,19 +504,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 768px){
     .icons-social {
         float: right;
@@ -546,6 +533,41 @@ footer {
         max-width:380px;
     }
 
+}
+
+@media screen and (max-width: 737px){
+        /* CONTEUDO BANNER */
+    #conteudo-banner-desktop {
+        display: block;
+        margin-top: 0px;
+        padding: 0 2%;
+    }
+
+    #conteudo-desktop {
+        max-width: 500px;
+    }
+
+    #conteudo-banner-desktop h1 {
+        color:  rgb(53, 53, 53);
+        font-size: 30px;
+    }
+
+    #conteudo-banner-desktop h1 > span {
+        font-size: 40px;
+        margin-right: 3px;
+    }
+
+    #conteudo-banner-desktop h2 {
+        color: rgb(53, 53, 53);
+        font-size: 17px;
+    }
+
+    #conteudo-banner-desktop p {
+        color:  rgb(53, 53, 53);
+        font-size: 13px;
+        margin-bottom: 3px;
+        
+    }
 }
 
 @media screen and (max-width: 610px){
