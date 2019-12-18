@@ -59,18 +59,59 @@ body,html {
     color: #4267b2;
 }
 
+/* EFEIRO SNOW */
+.snow1 {
+    background: url('../image/snow.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 620px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateOne 10s infinite linear;-moz-animation: animateOne 10s infinite linear; -o-animation: animateOne 10s infinite linear;-webkit-animation: animateOne 10s infinite linear;
+}
+.snow2 {
+    background: url('../image/snow.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 620px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateTwo 10s infinite linear;-moz-animation: animateTwo 10s infinite linear; -o-animation: animateTwo 10s infinite linear;-webkit-animation: animateTwo 10s infinite linear;
+    background-size: 300px;
+    filter: blur(1px);
+}
+.snow3 {
+    background: url('../image/snow.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 620px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateTwo 10s infinite linear;-moz-animation: animateTwo 10s infinite linear; -o-animation: animateTwo 10s infinite linear;-webkit-animation: animateTwo 10s infinite linear;
+    background-size: 600px;
+    filter: blur(3px);
+}
+
+@keyframes animateOne {0%{background-position: 0px 0px;}100%{background-position: 100px 650px;}}
+@keyframes animateTwo {0%{background-position: 0px -100px;}100%{background-position: 0px 650px;}}
+@keyframes animateThree {0%{background-position: 0px 100px;}100%{background-position: 300px 650px;}}
+
 header {
     width: 100%;
     height: 100vh;
-    max-height: 620px;
-    background-image: url(../image/banneer1.png);
+    max-height: 620px; 
+    /* background-image: url(../image/banneer1.png); */
+    background-image: url('../image/bg-noel.jpg');
     background-size: cover ;
     background-repeat: no-repeat;
     overflow: hidden;
-    background-position: left;
+    background-position: center;
     position: relative;
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1400px; 
     
 }
 
@@ -89,11 +130,13 @@ header nav#menu-desktop ul li a {
     text-decoration: none;
     margin: 0 15px;
     color: #2FB3FF;
+   
 }
 header nav#menu-desktop ul li a:hover {
     color: rgb(35, 134, 192);
     border-bottom: 1px solid rgb(35, 134, 192);
 }
+
 
 /* menu-mobile */
 
@@ -235,6 +278,44 @@ header nav#menu-desktop ul li a:hover {
     margin-top: 10px;
 }
 
+/* CONTEUDO BANNER */
+#conteudo-banner-desktop {
+    display: block;
+    margin-top: 40px;
+    padding: 0 2%;
+}
+
+#conteudo-desktop {
+    width: 100%;
+    max-width: 500px;
+
+}
+
+#conteudo-banner-desktop h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: rgb(78, 78, 78);
+    font-size: 70px;
+}
+
+#conteudo-banner-desktop h1 > span {
+    color: #2FB3FF;
+    font-size: 80px;
+    margin-right: 5px;
+}
+
+#conteudo-banner-desktop h2 {
+    color: rgb(56, 56, 56);
+    font-size: 30px;
+}
+
+#conteudo-banner-desktop p {
+    color: rgb(56, 56, 56);;
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+
 /* chamada de serviços */
 
 .chamada-servico {
@@ -341,8 +422,8 @@ section.sobre-empresa {
 #top {
     position: fixed;
     right: 15px;
-    bottom: 210px;
-    opacity: 0.5;
+    bottom: 20px;
+    opacity: 0.3;
     z-index: 9999;
     cursor: pointer;
     display: none;
@@ -475,6 +556,9 @@ footer {
 }
 
 @media screen and (max-width: 500px){
+    #conteudo-banner-desktop{
+        display: none;
+    }
     .icons-social a { 
         display: none;
     }
@@ -502,7 +586,8 @@ footer {
     }
 
     header {
-        background-image: url(../image/bannerMedia.png);  
+        /* background-image: url(../image/bannerMedia.png);   */
+        background-image: url('../image/mockup.jpg');
         height: 100vh;
         max-height: 700px;
         background-size: cover ;

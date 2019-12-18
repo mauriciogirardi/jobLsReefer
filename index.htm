@@ -29,6 +29,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/janelaModal.css">
         <link rel="stylesheet" href="css/form.css">
         <link rel="stylesheet" href="css/slick.css">
         <link rel="stylesheet" href="css/box_servico.css">
@@ -37,7 +38,24 @@
         <link rel="shortcut icon" href="image/icon-fa.png" type="image/x-icon">
     </head>
     <body>
+
+        <section id="natal">
+            <div class="bg"></div>
+            <div class="btnModalOpen">Um recado da equipe Ls Reefer!</div>            
+            <div class="box__Modal">
+                <div class="btnModalClose">X</div>
+                <div class="box__conteudo">
+                    <h3>Toda equipe da Ls Reefer deseja aos clientes, amigos e parceiros um Feliz Natal e um próspero Ano Novo!!</h3>
+                </div>
+            </div>
+        </section>
+
         <header>
+
+            <div class="snow1"></div>
+            <div class="snow2"></div>
+            <div class="snow3"></div>
+
             <div class="container">
 
                 <div class="icons-social">
@@ -74,6 +92,22 @@
                 </div><!--sidebar-->
 
                 <div class="line-bootom"></div>
+
+                <div id="conteudo-banner-desktop">
+                    <div class="container">
+                        <div id="conteudo-desktop">
+                            <h1><span>LS</span>REEFER</h1>
+                            <p>A Ls Reefer Refrigeração e Climatização vai deixar a temperatura de sua casa ou empresa de acordocom a sua necessidade.</p>
+                            <h2>Manutenção em contêiner</h2>
+                            <h2>Manutenção preventiva</h2>                   
+                            <h2>Instalação de infra</h2>
+                            <h2>Higienização</h2>
+                            <h2>Instalação</h2>
+                            <h2>Conserto</h2>
+                            <h2>Limpeza</h2>                  
+                        </div>
+                    </div>
+                </div>
 
                 <div id="conteudo-banner-mobile">
                     <div class="container">
@@ -292,6 +326,10 @@
                         <h2>comentarios</h2>
                     </div>
 
+                    <div id="comentario">
+                        <a href="https://g.page/LSREEFER/review?gm" target="_blank">Deixe seu comentario!</a>
+                    </div>
+
                     <div class="scrollEquipe">
                         <div class="scrollWraper">
 
@@ -416,7 +454,7 @@
                     whatsapp: "+5547984492968", // WhatsApp number
                     call_to_action: "Entre em contato", // Call to action
                     button_color: "#E74339", // Color of button
-                    position: "right", // Position may be 'right' or 'left'
+                    position: "left", // Position may be 'right' or 'left'
                     order: "whatsapp,facebook", // Order of buttons
                 };
                 var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
@@ -427,6 +465,7 @@
         </script>
 
         <script src="js/jQuery.js"></script>  
+        <script src="js/janelaModal.js"></script>
         <script src="js/form.js"></script>
         <script src="js/slick.min.js"></script>
         <script src="js/slides.js"></script>   
