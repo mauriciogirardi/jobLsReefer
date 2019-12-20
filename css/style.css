@@ -140,6 +140,20 @@ header nav#menu-desktop ul li a:hover {
 
 /* menu-mobile */
 
+header nav#menu-mobile {
+    display: none;
+    position: absolute;
+    top: -2px;
+    left: 20px;
+}
+header nav#menu-mobile li a{
+    text-decoration: none;
+    color: white;  
+}
+header nav#menu-mobile h1{
+    font-size: 45px;
+}
+
 .sidebar-mobile{
     display: none;
     position: absolute;
@@ -505,6 +519,9 @@ footer {
 
 
 @media screen and (max-width: 768px){
+    header nav#menu-mobile {
+        display: block;
+    }
     .icons-social {
         float: right;
     }
