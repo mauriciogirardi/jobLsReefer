@@ -104,7 +104,7 @@ header {
     height: 100vh;
     max-height: 620px; 
     /* background-image: url(../image/banneer1.png); */
-    background-image: url('../image/banneer1.png');
+    background-image: url('../image/bg.png');
     background-size: cover ;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -295,37 +295,37 @@ header nav#menu-mobile h1{
 /* CONTEUDO BANNER */
 #conteudo-banner-desktop {
     display: block;
-    margin-top: 40px;
+    margin-top: 0px;
     padding: 0 2%;
 }
 
 #conteudo-desktop {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
 
 }
 
 #conteudo-banner-desktop h1 {
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
-    color: rgb(78, 78, 78);
-    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
 }
 
 #conteudo-banner-desktop h1 > span {
     color: #2FB3FF;
-    font-size: 80px;
+    font-size: 110px;
     margin-right: 5px;
 }
 
 #conteudo-banner-desktop h2 {
-    color: rgb(56, 56, 56);
-    font-size: 30px;
+    color: rgb(255, 251, 251);
+    font-size: 35px;
 }
 
 #conteudo-banner-desktop p {
-    color: rgb(56, 56, 56);;
-    font-size: 16px;
+    color: rgb(255, 255, 255);;
+    font-size: 18px;
     margin-bottom: 10px;
     
 }
@@ -577,40 +577,7 @@ footer {
 
 }
 
-@media screen and (max-width: 737px){
-        /* CONTEUDO BANNER */
-    #conteudo-banner-desktop {
-        display: block;
-        margin-top: 0px;
-        padding: 0 2%;
-    }
 
-    #conteudo-desktop {
-        max-width: 500px;
-    }
-
-    #conteudo-banner-desktop h1 {
-        color:  rgb(53, 53, 53);
-        font-size: 30px;
-    }
-
-    #conteudo-banner-desktop h1 > span {
-        font-size: 40px;
-        margin-right: 3px;
-    }
-
-    #conteudo-banner-desktop h2 {
-        color: rgb(53, 53, 53);
-        font-size: 17px;
-    }
-
-    #conteudo-banner-desktop p {
-        color:  rgb(53, 53, 53);
-        font-size: 13px;
-        margin-bottom: 3px;
-        
-    }
-}
 
 @media screen and (max-width: 610px){
     section.sobre-empresa {
