@@ -5,9 +5,10 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: $("#arrow-prev"),
     nextArrow: $("#arrow-next"),
+
     responsive: [
       {
-        breakpoint: 640,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
         },
