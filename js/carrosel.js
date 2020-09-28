@@ -10,9 +10,6 @@ $(function () {
         breakpoint: 640,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
         },
       },
     ],
