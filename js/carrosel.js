@@ -7,7 +7,7 @@ $(function () {
     nextArrow: $("#arrow-next"),
     responsive: [
       {
-        breakpoint: 500,
+        breakpoint: 640,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
