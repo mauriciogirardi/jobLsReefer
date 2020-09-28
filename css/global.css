@@ -1,0 +1,35 @@
+:root {
+  --color-primary: #029cbe;
+  --backgrond-color: #f4f4f4;
+  --background-secondary: #f2f8f9;
+  --color-secondary: #777777;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body,
+input,
+button,
+textarea,
+select {
+  font: 16px Roboto, sans-serif;
+  color: var(--color-secondary);
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-color: var(--backgrond-color);
+}
+
+button {
+  cursor: pointer;
+}

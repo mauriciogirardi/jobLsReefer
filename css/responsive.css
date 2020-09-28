@@ -1,0 +1,76 @@
+@media (max-width: 1300px) {
+  section#info {
+    padding: 100px 16px;
+  }
+  section#info main div {
+    padding: 20px 25px;
+    max-width: 400px;
+    margin: 20px;
+  }
+
+  section#info main {
+    justify-content: center;
+  }
+  footer {
+    padding: 50px 100px;
+  }
+}
+
+@media (max-width: 1080px) {
+  section#simulator {
+    margin-left: 0;
+    margin-bottom: 100px;
+    padding: 0 16px;
+    text-align: center;
+  }
+  section#simulator form {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  section#simulator form div {
+    text-align: center;
+    width: 300px;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    padding: 50px 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  header#main {
+    height: 500px;
+    padding: 50px 20px;
+  }
+
+  section#about {
+    height: 500px;
+    object-fit: cover;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    padding: 50px 20px;
+  }
+
+  footer .footer-content + .footer-content {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  section#about {
+    height: 700px;
+  }
+
+  section#simulator .name-area {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  section#simulator .name-area input {
+    width: 100%;
+  }
+}
