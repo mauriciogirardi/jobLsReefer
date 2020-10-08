@@ -73,4 +73,8 @@
   section#simulator .name-area input {
     width: 100%;
   }
+
+  header#main main img {
+    width: 100%;
+  }
 }

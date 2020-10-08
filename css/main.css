@@ -17,6 +17,10 @@ header#main main {
   width: 100%;
 }
 
+header#main main img {
+  margin-bottom: 20px;
+}
+
 header#main main h1 {
   font-size: 24px;
   font-weight: 500;
