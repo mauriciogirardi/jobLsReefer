@@ -39,6 +39,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  section#promotion {
+    margin: -210px 0 -50px 0;
+  }
+}
+
 @media (max-width: 500px) {
   header#main {
     height: 500px;
@@ -57,6 +63,10 @@
 
   footer .footer-content + .footer-content {
     margin-top: 30px;
+  }
+
+  section#promotion {
+    margin: -150px 0 0px 0;
   }
 }
 

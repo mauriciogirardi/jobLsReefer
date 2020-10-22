@@ -35,7 +35,8 @@ header#main main a {
   margin-top: 15px;
   display: inline-block;
   text-decoration: none;
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
+  background-color: #e95f78;
   color: #ffffff;
   padding: 10px 20px;
   border-radius: 10px;
@@ -43,7 +44,8 @@ header#main main a {
 }
 
 header#main main a:hover {
-  background-color: #0391ad;
+  /* background-color: #0391ad; */
+  background-color: #cc5166;
 }
 
 section#info {
@@ -242,9 +244,9 @@ section#simulator button:hover {
 }
 
 footer {
-  background-color: #242424;
+  background-color: #777777;
   color: #ffffff;
-  padding: 50px 250px;
+  padding: 60px 250px;
   display: flex;
   justify-content: space-between;
 }
@@ -259,7 +261,7 @@ footer .footer-content a {
   color: #ffffff;
   display: flex;
   align-items: center;
-  padding: 8px 0;
+  padding: 4px 0;
 }
 
 footer .footer-content a img {
@@ -270,9 +272,24 @@ footer .footer-content a img {
 footer .footer-content p {
   display: flex;
   align-items: center;
+  line-height: 22px;
 }
 
 footer .footer-content p img {
   margin-right: 6px;
   width: 15px;
+}
+
+footer .footer-content a img.facebook {
+  width: 30px;
+}
+
+section#promotion {
+  display: flex;
+  justify-content: center;
+  margin: -280px 0 -100px 0;
+}
+
+section#promotion img {
+  width: 100%;
 }
